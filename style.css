@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 0%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+
+  nav a {
+    color: #e9f3e9;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  article {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000000;
+   padding-bottom: 30px;
+  }
+  
+  article h2 {
+    margin-top: 0;
+  }
+  
+  .date {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #bd0b0b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  
+  }
+  
+  a:hover {background-color:  #8d0808;}
+
+
+.linguica { 
+  font-weight:bold;
+  font-size: 40px;
+  text-shadow:2px 0px 2px #000000; 
+  color:#991111;
+  display: inline;
+  font-family: 'Times New Roman', Arial, sans-serif
+}
+
+.lambemia {
+  list-style:none;
+  color: #201e1e;
+}
+.lambemia li::before {
+  content: "\2022";
+  color: #201e1e;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+article p {
+  display:flex
+  
+}
+.montanha {
+  padding:100px;
+}
+
+.contatinho {
+  font-family: 'Alkatra', cursive;
+  margin:50px;
+  text-shadow:0px 5px 10px #1d1c1c ;
+  
+}
+span.carregando {
+  width: 60px;
+  height: 60px;
+background-color: transparent;
+display: flex;
+align-items: center;
+border: 12px solid rgb(223, 9, 9) ;
+border-radius: 50px;
+border-top:12px solid transparent;
+
+animation: loading 1s linear infinite;
+
+}
+
+
+@keyframes loading{
+   0%
+   { 
+transform: rotate(0deg);
+  }
+
+100% 
+{
+transform:rotate(360deg);
+}
+
+}
+
+.jubileu {
+  
+  margin-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 30px;
+
+}
+
+.bordinha {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin: 20px;
+}
+
+.estudos {
+  border-radius: 10px;
+  display:inline-block;
+  margin-left: 50%;
+  border: 5px solid rgb(153, 26, 9);
+  padding: 10px;
+  text-shadow:0px 5px 10px#000000;
+}
+
+.boto
+{border-bottom: 1px solid #000000;}
+
+.btn-instagram, .btn-twitter {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #f7f2f2;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-instagram:hover, .btn-twitter:hover {
+  border-color: #f8f6f6;
+  color: #f5f5f5;
+}
+
+.btn-instagram i, .btn-twitter i {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.btn-instagram {
+  background-color: #bd0b0b;
+}
+
+.btn-twitter {
+  background-color: #bd0b0b;
+}
+
+
+
+
+
